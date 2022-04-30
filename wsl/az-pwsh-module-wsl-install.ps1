@@ -16,5 +16,5 @@ Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Verbose
 
 #Observations:
 #1/ if running with -Force (and not -Verbose) the install hangs. I guess it is in a suppressed prompt?
-
+#2/ use 'Connect-AzAccount -UseDeviceAuthentication' to sign in to Azure
 
